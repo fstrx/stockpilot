@@ -1,0 +1,9 @@
+item,unit,type,cost,price,leftover_value,shelf_life,lead_days
+Milk,litres,perishable,54.0,70,0.0,1,1
+Bread,loaves,perishable,35.0,45,10.0,2,1
+Samosa,pieces,perishable,8.0,15,0.0,1,1
+Veg sandwich,pieces,perishable,20.0,35,0.0,1,1
+Paneer,200 g packs,perishable,70.0,95,0.0,3,1
+Fruit cup,cups,perishable,15.0,30,0.0,1,1
+Packaged juice,packs,packaged,24.0,35,24.0,180,3
+Chips,packets,packaged,7.5,10,7.5,120,3

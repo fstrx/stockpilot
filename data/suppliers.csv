@@ -1,0 +1,15 @@
+item,supplier,price_per_unit,delivery_cost,lead_days,min_qty
+Milk,Dairy booth,54.0,0,1,1
+Milk,Dairy distributor,51.0,60,1,20
+Bread,Local bakery,35.0,0,1,1
+Bread,Bread distributor,32.0,50,1,20
+Samosa,Canteen kitchen,8.0,0,1,0
+Veg sandwich,Canteen kitchen,20.0,0,1,0
+Paneer,Local dairy,72.0,0,1,1
+Paneer,Dairy distributor,66.0,60,2,10
+Fruit cup,Local fruit seller,15.0,0,1,1
+Fruit cup,Wholesale mandi,11.0,40,1,20
+Packaged juice,FMCG distributor,24.0,0,3,24
+Packaged juice,Cash-and-carry store,23.0,80,1,48
+Chips,FMCG distributor,7.5,0,3,50
+Chips,Cash-and-carry store,7.2,80,1,100

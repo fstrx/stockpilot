@@ -1,0 +1,215 @@
+{
+  "data": {
+    "series": 500,
+    "train_period": "2013-01-29 to 2016-12-31",
+    "test_period": "2017-01-01 to 2017-12-31",
+    "train_rows": 716500,
+    "test_rows": 182500
+  },
+  "accuracy": {
+    "all_items": {
+      "baseline_same_day_last_week_smape": 17.34,
+      "baseline_yesterday_smape": 21.12,
+      "stockpilot_smape": 12.36,
+      "baseline_same_day_last_week_mae": 8.84,
+      "stockpilot_mae": 6.27
+    },
+    "slowest_10_items": {
+      "baseline_same_day_last_week_smape": 23.6,
+      "baseline_yesterday_smape": 26.66,
+      "stockpilot_smape": 16.97,
+      "baseline_same_day_last_week_mae": 5.92,
+      "stockpilot_mae": 4.24
+    },
+    "fastest_10_items": {
+      "baseline_same_day_last_week_smape": 13.17,
+      "baseline_yesterday_smape": 17.61,
+      "stockpilot_smape": 9.26,
+      "baseline_same_day_last_week_mae": 11.56,
+      "stockpilot_mae": 8.12
+    }
+  },
+  "quantile_coverage_pct": {
+    "q10": 8.8,
+    "q20": 18.7,
+    "q30": 29.0,
+    "q40": 39.5,
+    "q50": 50.2,
+    "q60": 60.7,
+    "q70": 71.2,
+    "q80": 81.5,
+    "q90": 91.4
+  },
+  "digital_twin_2017": {
+    "stockpilot": {
+      "units_ordered": 10333893,
+      "units_sold": 10030758,
+      "units_wasted": 302947,
+      "units_lost": 702982,
+      "waste_pct_of_ordered": 2.93,
+      "stockout_day_pct": 52.04,
+      "fill_rate_pct": 93.45,
+      "profit_rupees": 123773800
+    },
+    "habit": {
+      "margin_0pct": {
+        "units_ordered": 4447278,
+        "units_sold": 4439082,
+        "units_wasted": 8196,
+        "units_lost": 6294658,
+        "waste_pct_of_ordered": 0.18,
+        "stockout_day_pct": 98.83,
+        "fill_rate_pct": 41.36,
+        "profit_rupees": 56179209
+      },
+      "margin_15pct": {
+        "units_ordered": 11313377,
+        "units_sold": 10215653,
+        "units_wasted": 1097060,
+        "units_lost": 518087,
+        "waste_pct_of_ordered": 9.7,
+        "stockout_day_pct": 35.91,
+        "fill_rate_pct": 95.17,
+        "profit_rupees": 111150822
+      },
+      "margin_30pct": {
+        "units_ordered": 12795203,
+        "units_sold": 10578860,
+        "units_wasted": 2214456,
+        "units_lost": 154880,
+        "waste_pct_of_ordered": 17.31,
+        "stockout_day_pct": 13.81,
+        "fill_rate_pct": 98.56,
+        "profit_rupees": 96446618
+      }
+    },
+    "stockpilot_min_service_70pct": {
+      "units_ordered": 11246771,
+      "units_sold": 10489529,
+      "units_wasted": 756710,
+      "units_lost": 244211,
+      "waste_pct_of_ordered": 6.73,
+      "stockout_day_pct": 24.39,
+      "fill_rate_pct": 97.72,
+      "profit_rupees": 120504705
+    },
+    "by_product": [
+      {
+        "product": "Milk packet",
+        "critical_ratio": 0.24,
+        "shelf_life_days": 1,
+        "habit_wasted": 280904,
+        "stockpilot_wasted": 34266,
+        "habit_stockout_day_pct": 36.86,
+        "stockpilot_stockout_day_pct": 73.28,
+        "habit_profit": 6869728,
+        "stockpilot_profit": 12338900
+      },
+      {
+        "product": "Bread loaf",
+        "critical_ratio": 0.44,
+        "shelf_life_days": 2,
+        "habit_wasted": 536,
+        "stockpilot_wasted": 14,
+        "habit_stockout_day_pct": 34.06,
+        "stockpilot_stockout_day_pct": 50.57,
+        "habit_profit": 19973690,
+        "stockpilot_profit": 19695900
+      },
+      {
+        "product": "Samosa",
+        "critical_ratio": 0.47,
+        "shelf_life_days": 1,
+        "habit_wasted": 267590,
+        "stockpilot_wasted": 88868,
+        "habit_stockout_day_pct": 35.91,
+        "stockpilot_stockout_day_pct": 47.97,
+        "habit_profit": 9706584,
+        "stockpilot_profit": 11048510
+      },
+      {
+        "product": "Veg sandwich",
+        "critical_ratio": 0.43,
+        "shelf_life_days": 1,
+        "habit_wasted": 249594,
+        "stockpilot_wasted": 73395,
+        "habit_stockout_day_pct": 36.93,
+        "stockpilot_stockout_day_pct": 51.42,
+        "habit_profit": 18594075,
+        "stockpilot_profit": 21786780
+      },
+      {
+        "product": "Paneer 200 g",
+        "critical_ratio": 0.52,
+        "shelf_life_days": 3,
+        "habit_wasted": 0,
+        "stockpilot_wasted": 0,
+        "habit_stockout_day_pct": 36.95,
+        "stockpilot_stockout_day_pct": 41.77,
+        "habit_profit": 32021805,
+        "stockpilot_profit": 32127210
+      },
+      {
+        "product": "Fruit cup",
+        "critical_ratio": 0.5,
+        "shelf_life_days": 1,
+        "habit_wasted": 298436,
+        "stockpilot_wasted": 106404,
+        "habit_stockout_day_pct": 34.84,
+        "stockpilot_stockout_day_pct": 44.78,
+        "habit_profit": 23984940,
+        "stockpilot_profit": 26776500
+      }
+    ]
+  },
+  "assumptions": {
+    "item_profiles": [
+      {
+        "name": "Milk packet",
+        "cost": 26,
+        "price": 34,
+        "leftover_value": 0,
+        "shelf_life": 1
+      },
+      {
+        "name": "Bread loaf",
+        "cost": 35,
+        "price": 45,
+        "leftover_value": 10,
+        "shelf_life": 2
+      },
+      {
+        "name": "Samosa",
+        "cost": 8,
+        "price": 15,
+        "leftover_value": 0,
+        "shelf_life": 1
+      },
+      {
+        "name": "Veg sandwich",
+        "cost": 20,
+        "price": 35,
+        "leftover_value": 0,
+        "shelf_life": 1
+      },
+      {
+        "name": "Paneer 200 g",
+        "cost": 70,
+        "price": 95,
+        "leftover_value": 0,
+        "shelf_life": 3
+      },
+      {
+        "name": "Fruit cup",
+        "cost": 15,
+        "price": 30,
+        "leftover_value": 0,
+        "shelf_life": 1
+      }
+    ],
+    "habit_policy": "order (1 + margin) x yesterday's sales, minus fresh stock on hand",
+    "delivery": "ordered the evening before, arrives next morning",
+    "selling": "oldest stock first"
+  },
+  "runtime_seconds": 150
+}
